@@ -11,13 +11,14 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_LTGWYGuxEeuLdN46TzAnVA" name="02_UseCases">
       <packagedElement xmi:type="uml:Actor" xmi:id="_LTGWYWuxEeuLdN46TzAnVA" name="DriverEgoVehicle"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWYmuxEeuLdN46TzAnVA" name="ALKS shall avoid collision ">
-        <include xmi:type="uml:Include" xmi:id="_LTGWY2uxEeuLdN46TzAnVA" addition="_LTGWZWuxEeuLdN46TzAnVA"/>
         <include xmi:type="uml:Include" xmi:id="_LTGWZGuxEeuLdN46TzAnVA" addition="_LTGWaGuxEeuLdN46TzAnVA"/>
+        <include xmi:type="uml:Include" xmi:id="_4z5mMGxrEeugB5DawIXIVQ" addition="_LTGWZWuxEeuLdN46TzAnVA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWZWuxEeuLdN46TzAnVA" name="Avoid collision with moving object">
         <include xmi:type="uml:Include" xmi:id="_LTGWZmuxEeuLdN46TzAnVA" addition="_LTGWamuxEeuLdN46TzAnVA"/>
         <include xmi:type="uml:Include" xmi:id="_LTGWZ2uxEeuLdN46TzAnVA" addition="_LTGWa2uxEeuLdN46TzAnVA"/>
-        <include xmi:type="uml:Include" xmi:id="_q0MwMGuyEeuPSLg0solIhg" addition="_LTGWbGuxEeuLdN46TzAnVA"/>
+        <include xmi:type="uml:Include" xmi:id="__Ls1wGxrEeugB5DawIXIVQ" addition="_LTGWamuxEeuLdN46TzAnVA"/>
+        <include xmi:type="uml:Include" xmi:id="_BQtacGxsEeugB5DawIXIVQ" addition="_LTGWa2uxEeuLdN46TzAnVA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWaGuxEeuLdN46TzAnVA" name="Avoid collision with static objects">
         <include xmi:type="uml:Include" xmi:id="_LTGWaWuxEeuLdN46TzAnVA" addition="_LTGWbGuxEeuLdN46TzAnVA"/>
@@ -42,28 +43,34 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWeGuxEeuLdN46TzAnVA" name="Pedestrian detection"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWeWuxEeuLdN46TzAnVA" name="Bicycle detection"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWemuxEeuLdN46TzAnVA" name="Vehicle objects detection"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWfGuxEeuLdN46TzAnVA" name="Activate ALKS"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWfGuxEeuLdN46TzAnVA" name="Activate ALKS">
+        <include xmi:type="uml:Include" xmi:id="_0ZhlQGxuEeugB5DawIXIVQ" addition="_LTGWg2uxEeuLdN46TzAnVA"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWfWuxEeuLdN46TzAnVA" name="Deactivate ALKS"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWf2uxEeuLdN46TzAnVA" name="Check driver attentiveness"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWgGuxEeuLdN46TzAnVA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWgWuxEeuLdN46TzAnVA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWgmuxEeuLdN46TzAnVA"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWg2uxEeuLdN46TzAnVA" name="Track ALKS data"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWhGuxEeuLdN46TzAnVA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWhWuxEeuLdN46TzAnVA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWhmuxEeuLdN46TzAnVA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWh2uxEeuLdN46TzAnVA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWiGuxEeuLdN46TzAnVA"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_LTGWiWuxEeuLdN46TzAnVA" name="ManufactorALKS"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_LTGWimuxEeuLdN46TzAnVA" name="ManufactorEgoVehicle"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWi2uxEeuLdN46TzAnVA" name="Maintain ALKS SW"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWjGuxEeuLdN46TzAnVA" name="Decommision EgoVehicle"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWjWuxEeuLdN46TzAnVA" name="Implement Functional Safety for vehicle"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_LTGWjmuxEeuLdN46TzAnVA" name="Implement functional safety for ALKS "/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWj2uxEeuLdN46TzAnVA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWkGuxEeuLdN46TzAnVA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWkWuxEeuLdN46TzAnVA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LTGWkmuxEeuLdN46TzAnVA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1cwrQGxrEeugB5DawIXIVQ" name="DriverAvoidCollision"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s0sMwGxsEeugB5DawIXIVQ" name="DriverAttentive"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2pIiUGxsEeugB5DawIXIVQ" name="DriverActivate"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_pmoDYGxuEeugB5DawIXIVQ" name="ShowALKSStatus"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_5HGHoGxuEeugB5DawIXIVQ" name="DrAlSta"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_GSaSYGxvEeugB5DawIXIVQ" name="ALKS shall detect traffic objects">
+        <include xmi:type="uml:Include" xmi:id="_ZuTDUGxvEeugB5DawIXIVQ" addition="_LTGWeGuxEeuLdN46TzAnVA"/>
+        <include xmi:type="uml:Include" xmi:id="_bPwPAGxvEeugB5DawIXIVQ" addition="_LTGWeWuxEeuLdN46TzAnVA"/>
+        <include xmi:type="uml:Include" xmi:id="_clO0MGxvEeugB5DawIXIVQ" addition="_LTGWd2uxEeuLdN46TzAnVA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_PnP60GxvEeugB5DawIXIVQ" name="DrDeTO"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_tphboGxvEeugB5DawIXIVQ" name="DrDeact"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IP6EYGxwEeugB5DawIXIVQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ko1DkGxwEeugB5DawIXIVQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NPBCsGxwEeugB5DawIXIVQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OrxUkGxwEeugB5DawIXIVQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_2Eha8GCbEeuKFvMVA0CZPw" name="01_Requirements">
       <packagedElement xmi:type="uml:Package" xmi:id="_dYxNYGIQEeuVR7rbTVzdsQ" name="011_ALKS_Reqs">
