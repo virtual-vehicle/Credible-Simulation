@@ -6903,7 +6903,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BEcjRmxwEeugB5DawIXIVQ"/>
       </children>
       <element xmi:type="uml:UseCase" href="ALKSModel.uml#_LTGWi2uxEeuLdN46TzAnVA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BESyQWxwEeugB5DawIXIVQ" x="340" y="60"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BESyQWxwEeugB5DawIXIVQ" x="400" y="100"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_BttisGxwEeugB5DawIXIVQ" type="UseCase_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_BttismxwEeugB5DawIXIVQ" type="UseCase_NameLabel"/>
