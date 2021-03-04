@@ -72,6 +72,13 @@ Now you can Start papyrus
 ### Papyrus-Plugins
 
 For sysml-modelling there are different plugins necessarry.
+The following plugins are recommended:
+- GMF plugin
+- SYSML 1.6 plugin
+- EMF compare
+- Papyrus compare
+
+Installing the GMF plugin
 
 For installing a sysml profile another plugin seems to be necessarry: the GMF plugin
 1. Choose Help - Install new software
@@ -93,6 +100,35 @@ Use here the installation with the marketplace
 6. A Window appears "Software Updates - Restart Eclipse IDE to apply the software update? Select "Restart now"
 
 Note: If an error occurs install the proposed packages.
+
+Installing EMF Compare
+This plugin needs to be installed before the papyrus compare
+
+1. Choose Help - Eclipse Marketplace
+2. Type in the Search tab, "Find" field: EMF compare
+3. All available plugins for comparison are shown Choose "EMF Compare" by clicking the "install" button
+4. NExt window shows "Confirm selected Features" 
+   - Model comparison (required) --> this is already selected
+   - Select "Model comparison - EGit Support"
+   - Note: Don't select the "Model comparison - Papyrus Support" --> this plugin must be installed afterwards
+   - Press "Confirm
+5. Press "Finish" and "restart"
+
+Installing Papyrus Compare
+
+This plugin cnnnot be found in the Eclipse Marketplce, thus it will be installed with the add -function:
+
+1. Choose Help - Install new software
+2. Add the plugin by clicking on Add.. 
+3. Fill in the download adress https://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/integration and give a name (e.g. EMF Compare)
+4. Select in the main window Papyrus Compare, then press "Next"
+5. A window appears with installation details, press "Next"
+6. A window "Review Licenses" appears, select "I accept the terms of the license agreements" and press "Finish"
+7. A security warning window appears with a warning, press "Install anyway"
+8. Window "Software Updates" asks "Restart Eclips IDE to apply the software update?", press "Restart Now"
+
+The necessarry plugins for papyrus are now installed
+
 
 ## Linux
 TBD
