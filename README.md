@@ -15,59 +15,56 @@ Minimum requirements:
 - Eclipse IDE 2020-12 [download](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-12/R/eclipse-inst-jre-win64.exe)
 - Papyrus < 5.0.0 (Workbench installation) [download](https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2020-12/5.0.0/)
 
-
 ## Windows
 
 ### OpenJDK
-1. Extract the zip file into a folder, e.g. C:\Program Files\Java\ and it will create a jdk-11 folder (where the bin folder is a direct sub-folder). You may need Administrator privileges to extract the zip file to this location.
-2. Set a PATH:
-    Select Control Panel and then System.
-    Click Advanced and then Environment Variables.
-    Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
-    The following is a typical value for the PATH variable: C:\WINDOWS\system32;C:\WINDOWS;"C:\Program Files\Java\jdk-11\bin"
-3. Set JAVA_HOME:
-    Under System Variables, click New.
-    Enter the variable name as JAVA_HOME.
-    Enter the variable value as the installation path of the JDK (without the bin sub-folder).
-    Click OK.
-    Click Apply Changes.
-    Configure the JDK in your IDE (e.g. IntelliJ or Eclipse).
+1. Extract the zip file into a folder, e.g. C:\Program Files\Java\ and it will create a jdk-15 folder (where the bin folder is a direct sub-folder). You may need Administrator privileges to extract the zip file to this location.
+2. Set JAVA_HOME:
+    - Under System Variables, click New.
+    - Enter the variable name as JAVA_HOME.
+    - Enter the variable value as the installation path of the JDK (without the bin sub-folder).
+3. Configure PATH:
+    - Select PATH under System Variables.
+    - Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
+    - The following is a typical value for the PATH variable: C:\WINDOWS\system32;C:\WINDOWS;"%JAVA_HOME%\bin"
+    - Click OK.
+    - Click Apply Changes.
+4. Add other useful variables as [described here](https://stackoverflow.com/a/26640589/2883130) and look at the optional instructions.
 
-To see if it worked, open up the Command Prompt and type java -version and see if it prints your newly installed JDK.
+To see if it worked, open up the Command Prompt:
+~~~
+C:\>java --version
+openjdk 15.0.2 2021-01-19
+OpenJDK Runtime Environment (build 15.0.2+7-27)
+OpenJDK 64-Bit Server VM (build 15.0.2+7-27, mixed mode, sharing)
+~~~
 
 If you want to uninstall - just undo the above steps.
 
-Note: You can also point JAVA_HOME to the folder of your JDK installations and then set the PATH variable to %JAVA_HOME%\bin. So when you want to change the JDK you change only the JAVA_HOME variable and leave PATH as it is.
-
 ### Eclipse
 
-1. Download the Eclipse Installation Package 
-2. Run the installation by clicking on the downloaded installation package (usually in the windows-download folder) Note, that administration rights are necessarry  
-3. Select a workspace (you can use the default folder or can browse and create a new one, e.g eclipseworkspace202012, especially if there are older installations of eclipss choose a new one)
-4. Launch the application and check, if its running
-
-
-- Eclipse Modeling Tools
+1. Download the Eclipse Installation Package.
+2. Run the installation by clicking on the downloaded installation package (usually in the windows-download folder) Note, that administration rights are necessarry.
+3. Select Eclipse Modeling Tools, make sure the proxy settings are correct to allow the download of the application components.
+4. Launch the application and check, if its running.
+5. Select a workspace (you can use the default folder or can browse and create a new one, e.g eclipseworkspace202012, especially if there are older installations of eclipss choose a new one).
 
 ### Papyrus
 
-Installation of papyrus and plugins are done in the eclipse tool. If eclipse is not running start it at first
+Installation of papyrus and plugins are done in the eclipse tool. If eclipse is not running start it at first.
 
 For installing Papyrus do the following steps:
 
-1. Help -> Install new software
-The install-window opens
-2. Under "work with" fill in the source of the papyrus package: https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2020-12/5.0.0/
-3. Click on the Add... Button
-4. Under "Add Repository" fill in a name (e.g Papyrus 5.0) and click on "Add"
-5. The Install window is shown again with the possible plugins for the installation package select all of the shown plugins by clicking the select-square on the left side of each plugin
-Select there: Papyrus, Papyrus Releng Tools, Papyrus Toolsmith and optionally Papyrus User Examples
-6. Click on "Next"
+1. Help -> Install new software -> The install-window opens.
+2. Under "work with" fill in the source of the papyrus package: https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2020-12/5.0.0/ .
+3. Click on the Add... Button.
+4. Under "Add Repository" fill in a name (e.g Papyrus 5.0) and click on "Add".
+5. The Install window is shown again with the possible plugins for the installation package select there: Papyrus, Papyrus Releng Tools, Papyrus Toolsmith and optionally Papyrus User Examples.
+6. Click on "Next" -> Accept the terms of service.
 If there are other installations of papyrus it is possible, that the installation run can not be completed, thus try the following
-7. If the install window shows "Install Remeditation Page - The install cannot be completed" select the following solution: Keep my installation the same and modify< the items being installed to be compatible
-8. A security warning appears: "Warning : Installing unsigned software for witch the authenicity or.....Continue with the installation? Select "Install anyway"
-9. A Window appears "Software Updates - Restart Eclipse IDE to apply the software update? Select "Restart now"
-Now you can Start papyrus
+7. If the install window shows "Install Remeditation Page - The install cannot be completed" select the following solution: Keep my installation the same and modify the items being installed to be compatible.
+8. A security warning appears: "Warning : Installing unsigned software for witch the authenicity or.....Continue with the installation? Select "Install anyway".
+9. A Window appears "Software Updates - Restart Eclipse IDE to apply the software update? Select "Restart now".
 
 ### Papyrus-Plugins
 
