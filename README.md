@@ -56,7 +56,7 @@ Installation of papyrus and plugins are done in the eclipse tool. If eclipse is 
 For installing Papyrus do the following steps:
 
 1. Help -> Install new software -> The install-window opens.
-2. Under "work with" fill in the source of the papyrus package: https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2020-12/5.0.0/ .
+2. Under "work with" fill in the source of the papyrus package: `https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2020-12/5.0.0/`.
 3. Click on the Add... Button.
 4. Under "Add Repository" fill in a name (e.g Papyrus 5.0) and click on "Add".
 5. The Install window is shown again with the possible plugins for the installation package select there: Papyrus, Papyrus Releng Tools, Papyrus Toolsmith and optionally Papyrus User Examples.
@@ -68,64 +68,54 @@ If there are other installations of papyrus it is possible, that the installatio
 
 ### Papyrus-Plugins
 
-For sysml-modelling there are different plugins necessarry.
-The following plugins are recommended:
+For sysml-modelling there are different plugins necessarry to be installed in the follwoing order:
 - GMF plugin
 - SYSML 1.6 plugin
 - EMF compare
 - Papyrus compare
 
-Installing the GMF plugin
+Installing the GMF plugin:
 
-For installing a sysml profile another plugin seems to be necessarry: the GMF plugin
-1. Choose Help - Install new software
-2. Add the plugin by clicking on Add.. 
-3. Fill in the download adress http://download.eclipse.org/modeling/gmp/gmf-tooling/updates/releases-3.3.1a and give a name (e.g. GMF)
-4. Select the shown plugin and click "Next"
-5. A security warning appears: "Warning : Installing unsigned software for witch the authenicity or.....Continue with the installation? Select "Install anyway"
-6. A Window appears "Software Updates - Restart Eclipse IDE to apply the software update? Select "Restart now"
+1. Choose Help - Install new software.
+2. Add the plugin by clicking on Add.. .
+3. Fill in the download adress `http://download.eclipse.org/modeling/gmp/gmf-tooling/updates/releases-3.3.1a` and give a name (e.g. GMF).
+4. Select the shown plugin and click "Next".
+5. A security warning appears: "Warning : Installing unsigned software for witch the authenicity or.....Continue with the installation? Select "Install anyway".
+6. A Window appears "Software Updates - Restart Eclipse IDE to apply the software update? Select "Restart now".
 
+Installing the syml 1.6 profile:
 
-Installing the syml 1.6 profile
-
-Use here the installation with the marketplace
-1. Choose Help - Eclipse Marketplace
-2. Type in the Search tab, "Find" field: sysml
+1. Choose Help - Eclipse Marketplace.
+2. Type in the Search tab, "Find" field: `sysml`.
 3. All available plugins for sysml are shown. 
-4. Choose SYSML 1.6 by cklicking on the install-Button
-5. A security warning appears: "Warning : Installing unsigned software for witch the authenicity or.....Continue with the installation? Select "Install anyway"
-6. A Window appears "Software Updates - Restart Eclipse IDE to apply the software update? Select "Restart now"
+4. Choose SYSML 1.6 by cklicking on the "install" button.
+5. If a security warning appears: "Warning : Installing unsigned software for witch the authenicity or.....Continue with the installation? Select "Install anyway".
+6. A Window appears "Software Updates - Restart Eclipse IDE to apply the software update? Select "Restart now".
 
 Note: If an error occurs install the proposed packages.
 
-Installing EMF Compare
-This plugin needs to be installed before the papyrus compare
+Installing EMF Compare:
 
-1. Choose Help - Eclipse Marketplace
-2. Type in the Search tab, "Find" field: EMF compare
-3. All available plugins for comparison are shown Choose "EMF Compare" by clicking the "install" button
-4. NExt window shows "Confirm selected Features" 
-   - Model comparison (required) --> this is already selected
-   - Select "Model comparison - EGit Support"
-   - Note: Don't select the "Model comparison - Papyrus Support" --> this plugin must be installed afterwards
-   - Press "Confirm
-5. Press "Finish" and "restart"
+1. Choose Help - Eclipse Marketplace.
+2. Type in the Search tab, "Find" field: `EMF compare`.
+3. All available plugins for comparison are shown Choose "EMF Compare" by clicking the "install" button.
+4. Next window shows "Confirm selected Features".
+   - Model comparison (required) --> this is already selected.
+   - Select "Model comparison - EGit Support".
+   - Note: Don't select the "Model comparison - Papyrus Support" --> this plugin must be installed afterwards.
+   - Press "Confirm".
+5. Press "Finish" and "restart".
 
-Installing Papyrus Compare
-
-This plugin cnnnot be found in the Eclipse Marketplce, thus it will be installed with the add -function:
+Installing Papyrus Compare:
 
 1. Choose Help - Install new software
 2. Add the plugin by clicking on Add.. 
-3. Fill in the download adress https://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/integration and give a name (e.g. EMF Compare)
-4. Select in the main window Papyrus Compare, then press "Next"
-5. A window appears with installation details, press "Next"
-6. A window "Review Licenses" appears, select "I accept the terms of the license agreements" and press "Finish"
-7. A security warning window appears with a warning, press "Install anyway"
-8. Window "Software Updates" asks "Restart Eclips IDE to apply the software update?", press "Restart Now"
-
-The necessarry plugins for papyrus are now installed
-
+3. Fill in the download adress: `https://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/integration` and give a name (e.g. Papyrus Compare).
+4. Select in the main window Papyrus Compare, then press "Next".
+5. A window appears with installation details, press "Next".
+6. A window "Review Licenses" appears, select "I accept the terms of the license agreements" and press "Finish".
+7. A security warning window appears with a warning, press "Install anyway".
+8. Window "Software Updates" asks "Restart Eclips IDE to apply the software update?", press "Restart Now".
 
 ## Linux
 TBD
