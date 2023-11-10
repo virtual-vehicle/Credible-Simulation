@@ -70,7 +70,7 @@ If there are other installations of papyrus it is possible, that the installatio
 
 For sysml-modelling there are different plugins necessarry to be installed in the follwoing order:
 - GMF plugin
-- SYSML 1.6 plugin
+- SYSML 1.4 plugin
 - EMF compare
 - Papyrus compare
 
@@ -83,12 +83,12 @@ Installing the GMF plugin:
 5. A security warning appears: "Warning : Installing unsigned software for witch the authenicity or.....Continue with the installation? Select "Install anyway".
 6. A Window appears "Software Updates - Restart Eclipse IDE to apply the software update? Select "Restart now".
 
-Installing the syml 1.6 profile:
+Installing the syml 1.4 profile:
 
 1. Choose Help - Eclipse Marketplace.
 2. Type in the Search tab, "Find" field: `sysml`.
 3. All available plugins for sysml are shown. 
-4. Choose SYSML 1.6 by cklicking on the "install" button.
+4. Choose SYSML 1.4 by cklicking on the "install" button.
 5. If a security warning appears: "Warning : Installing unsigned software for witch the authenicity or.....Continue with the installation? Select "Install anyway".
 6. A Window appears "Software Updates - Restart Eclipse IDE to apply the software update? Select "Restart now".
 
